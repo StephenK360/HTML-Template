@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Metadata to describe the purpose of this webpage to search engines-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Theme Park, Barbie Theme Park, Barbie">
+    <meta name="description" content="A website for the popular Barbie Theme Park">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie Theme Park</title>
+    <style>
+        /* To stop a horizontal scroll bar from appearing  */
+        * {
+            box-sizing: border-box;
+        }
+        
+        /* Body styling */
+        body {
+            font-family: 'Arial', cursive, 'Arial', sans-serif;
+            margin: 0;
+            background-color: #ffd5e5; /* Light pink background */
+            color: #ffffff; /* Barbie pink text color */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        /* Header styling */
+        header {
+            background-color: #d6336c; /* Deeper pink background for header */
+            padding: 10px;
+            text-align: center;
+            font-family: 'Dollie Script', cursive, 'Arial', sans-serif;
+        }
+
+        h1, h2 {
+            font-family: 'Dollie Script', cursive, 'Arial', sans-serif;
+            margin: 10px;
+        }
+
+        /* Header navigation styling */
+        #topNav {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        #topNav a {
+            text-decoration: none;
+            color: #ffffff; /* White color for navigation links */
+            margin: 0 10px;
+        }
+        
+        /* To add interectivity when the links are hovered over*/
+        #topNav a:hover{
+            color: #d3d3d3;
+        }
+        
+        /* Footer Styling */
+        footer{
+            display: flex;
+            background-color: #d6336c;
+            padding: 10px;
+            color: #ffffff;
+            margin-top: auto;
+        }
+        
+        #footerHeading{
+            margin-top: 10px;
+            padding-left: 172px;
+            font-size: 20px
+        }
+                
+        .footerInfo{
+            text-align: center;
+            margin: 0px auto;
+        }
+        
+        /* Positions the table on the right side of the footer*/
+        footer aside {
+            margin-right: 10px; 
+            padding-left: px;
+            border-left: solid #ffffff 1px
+        }
+        
+        footer h3 {
+            text-align: left;
+            font-family: 'Dollie Script', cursive, 'Arial', sans-serif;
+            margin: 0px;
+            margin-bottom: 10px;
+            padding-left: 175px;
+        }
+        
+        footer nav#info {
+            display: flex;
+            margin-right: auto;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            text-align: left;
+           
+        }
+        
+        footer nav#info a {
+            background-color: #ff66a3;
+            border: solid #ff66a3 1px;
+            border-radius: 120px;
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        footer nav#info a:hover {
+            border: solid #d6336c 1px;
+        }
+        
+        footer nav#social a {
+            margin: 0px 10px;
+        }
+        
+        #copyright{
+            font-size: 12px;
+        }
+        
+        footer table{
+            margin-top: 10px;
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+        
+        footer td{
+            text-align: center;
+            padding-left: 12px;
+        }
+        
+    </style>
+    <!--A link to the stylesheet-->
+    <link rel="stylesheet" href="">
+</head>
+    
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Barbie Theme Park</h1>
+        <nav id="topNav">
+            <!-- Navigation links -->
+            <a href="index.html">Home</a> |
+            <a href="attractions.html">Attractions</a> |
+            <a href="tickets.html">Tickets</a> |
+            <a href="questions.html">Questions</a>
+        </nav>
+    </header>
+    
+    <!--This is the foorter containing links to lother information, and the time table of when the park will be open -->
+    <footer>
+        
+        <div class="footerInfo">
+            <h3 id="footerHeading">Visitor Information</h3>
+            
+            <!-- Links for the other info a visitor may want -->
+            <nav id="info">
+                <a href="">Contact Us</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Accessibility</a>
+                <a href="">FAQs</a>
+            </nav>
+            
+            <!-- Social media links -->
+            <nav id="social">
+                <a href=""><img src="facebook.png"></a>
+                <a href=""><img src="instagram.png"></a>
+                <a href=""><img src="twitter.png"></a>
+                <a href=""><img src="tiktok.png"></a>
+                <a href=""><img src="youtube.png"></a>
+            </nav>
+            
+            <p id="copyright">© Barbie Theme Park</p>
+        </div>
+
+        <!-- The opening hours table -->
+        <aside>
+            <table>
+                <caption><h3>Opening Hours</h3></caption>
+                <tr>
+                    <td>Monday</td>
+                    <td>8am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>8am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>8am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday & Sunday</td>
+                    <td>7am - 11pm</td>
+                </tr>
+            </table>
+        </aside>
+    </footer>
+        
+</body>
+    
+</html>
